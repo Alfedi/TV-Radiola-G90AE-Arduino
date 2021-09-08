@@ -1,0 +1,12 @@
+* What is this repo about?
+  I created this repo because I found this TV lying around some time ago and I taked it to play some "retro" videogames. Unfortunately it seemed that you cannot switch to a AV channel without the controller so I decided to make mine.
+  
+* How it is done?
+  I just use an Arduino Nano (in fact anyone should do the work) with the [[https://bengtmartensson.github.io/Infrared4Arduino/index.html][Infrared4Arduino library]]. Obviously you also need an IR led (disassemble a TV controller) and some buttons.
+
+  I didn't found the specific codes for this TV but I found [[https://www.majority.nl/tv_28pw9525_remote_control.htm][this]]. Not all of the codes works, but the ones I want to (Power, Input switch and volume) do.
+
+  
+* Todo List
+  - I would like to put some diagram or schema of how I setup the controller with the led and the buttons.
+  - I would like to get the complete code list for this TV. If someone ever find it please let me know.
